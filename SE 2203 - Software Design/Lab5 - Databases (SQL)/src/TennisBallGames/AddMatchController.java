@@ -32,6 +32,8 @@ public class AddMatchController<data> implements Initializable {
     private ComboBox homeTeamBox = null;
 
 
+
+
     // Some local variable declarations
     @FXML
     private ComboBox visitorTeamBox = null;

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="331.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.iCLINIC">
+
+
+    <center>
+        <MenuBar prefWidth="232.0" BorderPane.alignment="TOP_LEFT">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#CloseApp" text="Close"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Account">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Login"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Board">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="iCLINIC Board"/>
+                        <MenuItem mnemonicParsing="false" text="My Board"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Pallete">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Big View"/>
+                        <MenuItem mnemonicParsing="false" text="Small View"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Patient">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Add Patient"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="About">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#OpenAU" text="About Us"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </center>
+
+</BorderPane>
