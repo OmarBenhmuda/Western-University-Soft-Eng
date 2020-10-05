@@ -1,0 +1,100 @@
+#resultsBanner {
+    color: #a05151;
+    margin-left: 80px;
+}
+
+.header {
+    text-align: center;
+    background: #3b3b46;
+    padding: 5px;
+}
+
+.allContainer {
+
+    display: flex;
+    margin-bottom: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.searchContainer {
+    display: flex;
+    margin-bottom: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    }
+
+.allContent {
+    margin: 10px;
+    text-align: center;
+    background: #646478;
+    color: white;
+    line-height: 25px;
+    border-radius: 50px;
+}
+
+.searchContent {
+    margin: 10px;
+    text-align: center;
+    background: #9a3a3a;
+    color: white;
+    line-height: 25px;
+    border-radius: 50px;
+}
+
+.pokemonIMG {
+    padding: 0 50px;
+}
+
+.search {
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    background: #3b3b46;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+    font-size: 60px;
+}
+
+
+.content h2 {
+    margin: 0;
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.content h3 {
+    padding-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 25px;
+}
+
+.content p {
+    margin-top: 5px;
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+

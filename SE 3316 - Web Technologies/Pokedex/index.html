@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SE 3316A Web Technologies Lab #1</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Place your content here -->
+<div class="header">
+    <h1>SE 3316 Lab 1: Pokédex</h1>
+</div>
+<div class="search">
+    <label for="nameSearch"></label><input id="nameSearch" type="text" placeholder="Pokémon number search..."
+                                           onkeyup="searchNumber()"/>
+    <button type="button" onclick="searchNumber()">Search</button>
+    <label for="numberSearch"></label><input id="numberSearch" type="text" placeholder="Pokémon name search..."
+                                             onkeyUp="searchName()"/>
+    <button type="button" onclick="searchName()">Search</button>
+</div>
+
+<script src="main.js">
+</script>
+
+<footer class="footer">
+    All Pokemon Text data taken from <a href="https://pokemondb.net/pokedex/all" target="_blank">here</a> <br>
+    All Pokemon Image data taken from <a href="https://www.kaggle.com/kvpratama/pokemon-images-dataset" target="_blank">here</a>
+</footer>
+
+<!-- Embedded JavaScript go here -->
+</body>
+</html>
